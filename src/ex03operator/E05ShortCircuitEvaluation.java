@@ -18,7 +18,7 @@ public class E05ShortCircuitEvaluation {
 		result = (num1+=10)<0 && (num2+=10)>0;
 		System.out.println("result="+ result);
 		//num2는 초기값인 0을 유지하게된다.
-		System.out.println("num="+ num1 +", num2="+ num2);
+		System.out.println("num1="+ num1 +", num2="+ num2);
 		
 		/*
 		논리Or의 경우 둘중 하나만 true이면 무조건 true를 반환하므로 첫번째 조건이

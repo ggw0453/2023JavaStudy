@@ -75,6 +75,6 @@ public class E02PrivateInheritanceMain {
 		멤버변수 money에 접근할 수 없다. 현재 접근하려는 위치가 클래스 외부이기 때문이다.
 		즉 private멤버는 무조건 클래스 내부에서만 접근을 허용한다. */
 		Account account = new Account(1000);
-		//account.money = 1000; ;
+		//account.money = 1000;
 	}
 }
