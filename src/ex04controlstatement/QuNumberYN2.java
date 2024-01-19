@@ -1,19 +1,19 @@
 package ex04controlstatement;
 
-import java.io.IOException;
-
 public class QuNumberYN2 {
 	
-	public static void main(String[] args) throws IOException {
-		System.out.println("하나의 숫자를 입력하시오");
-		int a = System.in.read();
-		
-		if (a>='0' && a<='9') {
-			System.out.println("숫자");
+	public static void main(String[] args)  {
+		for (int a=1 ; a<=5 ; a++) {
+			for(int b=1 ; b<=a ; b++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
-		else {
-			System.out.println("숫자 아님");
+		for (int a=4; a>=1 ; a--) {
+			for(int b=1 ; b<=a ; b++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
-		
 	}
 }

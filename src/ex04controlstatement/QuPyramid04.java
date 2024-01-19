@@ -4,7 +4,7 @@ public class QuPyramid04 {
 
     public static void main(String[] args) {
 
-    	final int MAX_NUM = 8;
+    	final int MAX_NUM = 5;
     	int repeatNum = MAX_NUM * 2 - 1;
     	int descNum = -1;
     	
